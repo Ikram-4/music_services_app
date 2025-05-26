@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '/data/datasources/music_service_model.dart';
+import 'package:music_services_app/data/datasources/music_service_model.dart';
 
 class ServiceDetailsScreen extends StatelessWidget {
   final MusicServiceModel service;

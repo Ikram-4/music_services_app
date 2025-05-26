@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import '/data/datasources/music_service_model.dart';
+import '../datasources/music_service_model.dart';
 
 class FirebaseDataSource {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '/data/datasources/music_service_model.dart';
+import '../../data/datasources/music_service_model.dart';
 import '../../data/repositories/music_services_repository.dart';
 
 class MusicServicesProvider with ChangeNotifier {

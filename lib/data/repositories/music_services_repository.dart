@@ -1,6 +1,5 @@
-
-import '/data/models/firebase_datasource.dart';
-import '/data/datasources/music_service_model.dart';
+import '../models/firebase_datasource.dart';
+import '../datasources/music_service_model.dart';
 
 abstract class MusicServicesRepository {
   Future<List<MusicServiceModel>> getMusicServices();
